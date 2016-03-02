@@ -4,12 +4,10 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<%@ taglib uri="http://training.com/examples/greet" prefix="mytag" %>
 <title>Insert title here</title>
-<%@taglib uri="http://training.com/examples/greet" prefix="mytag" %>
 </head>
 <body>
-<mytag:greet userName="Ramesh"></mytag:greet>
-<a href="FirstServlet">Hello</a>
-
+<mytag:ForEach items="names" ></mytag:ForEach>
 </body>
 </html>
