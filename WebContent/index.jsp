@@ -9,7 +9,9 @@
 </head>
 <body>
 <mytag:greet userName="Ramesh"></mytag:greet>
-<br>
+<mytag:ForEach items="foundCustomer"/></m
+<br/>
 <mytag:greet/>
+
 </body>
 </html>

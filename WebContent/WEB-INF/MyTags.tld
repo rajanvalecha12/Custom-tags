@@ -14,4 +14,13 @@
     <rtexprvalue>true</rtexprvalue>
     </attribute>
   </tag>
+   <tag>
+    <name>ForEach</name>
+    <tag-class>com.training.tags.ForEachTag</tag-class>
+    <attribute>
+    <name> items</name>
+    <required>false</required>
+    <rtexprvalue>true</rtexprvalue>
+    </attribute>
+  </tag>
 </taglib>
