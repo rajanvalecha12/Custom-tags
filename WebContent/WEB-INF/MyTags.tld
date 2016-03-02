@@ -6,16 +6,12 @@
   <short-name>mytag</short-name>
   <uri>http://training.com/examples/greet</uri>
   <tag>
-  <name>greet</name>
-  <tag-class>com.training.tags.GreetingTag</tag-class>
-  <attribute>
-  <name>userName</name>
-  <required>false</required>
-  <rtexprvalue>true</rtexprvalue>
-  </attribute>
-  </tag>
-  <tag>
-    <name>name</name>
-    <tag-class>tag-class</tag-class>
+    <name>greet</name>
+    <tag-class>com.training.tags.GreetingTag</tag-class>
+    <attribute>
+    <name> userName</name>
+    <required>false</required>
+    <rtexprvalue>true</rtexprvalue>
+    </attribute>
   </tag>
 </taglib>
